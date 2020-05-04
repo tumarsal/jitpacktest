@@ -1,0 +1,2 @@
+install:
+  - ./grpc/android-cubic/gradlew clean install -xtest
