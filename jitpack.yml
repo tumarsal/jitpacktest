@@ -1,2 +1,3 @@
 install:
-  - ./grpc/android-cubic/gradlew clean install -xtest
+  - echo "Running a custom install command"
+  - cd ./grpc/android-cubic && ./gradlew clean install -xtest
